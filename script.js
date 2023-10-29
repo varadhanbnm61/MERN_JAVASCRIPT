@@ -72,6 +72,10 @@ function multi(a,b,c){
 }
 console.log(multi(1,2,3));
 //Print odd numbers in an array
+function add(){
+
+    
+}
 
 
 
