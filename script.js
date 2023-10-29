@@ -61,10 +61,17 @@
 //function always have return
 //return-to reduce the number of time code executed
 
-function add(a,b){
 
-
-}
 //function name is userdefined
+//function is used for dry codes 
 
 //DRY-do not repeat yourself
+ //===
+function multi(a,b,c){
+    return a*b*c;
+}
+console.log(multi(1,2,3));
+//Print odd numbers in an array
+
+
+
