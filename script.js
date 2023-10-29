@@ -67,15 +67,24 @@
 
 //DRY-do not repeat yourself
  //===
-function multi(a,b,c){
-    return a*b*c;
+// function multi(a,b,c){
+//     return a*b*c;
+// }
+// console.log(multi(1,2,3));
+// //Print odd numbers in an array
+
+var arr=[1,2,3,4,5,6,7,8,9,7,8];
+var result=[];
+
+function odd(arr){
+for(var i=0;i<arr.length;i++){
+
+
+if(arr[i]%2!==0){
+    result.push(arr[i]);
 }
-console.log(multi(1,2,3));
-//Print odd numbers in an array
-function add(){
 
-    
 }
-
-
-
+return result;
+}
+console.log(odd(arr));
