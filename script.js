@@ -73,18 +73,131 @@
 // console.log(multi(1,2,3));
 // //Print odd numbers in an array
 
-var arr=[1,2,3,4,5,6,7,8,9,7,8];
-var result=[];
+// var arr=[1,2,3,4,5,6,7,8,9,7,8];
+// var result=[];
 
-function odd(arr){
-for(var i=0;i<arr.length;i++){
+// function odd(arr){
+// for(var i=0;i<arr.length;i++){
 
 
-if(arr[i]%2!==0){
-    result.push(arr[i]);
-}
+// if(arr[i]%2!==0){
+//     result.push(arr[i]);
+// }
 
-}
-return result;
-}
-console.log(odd(arr));
+// }
+// return result;
+// }
+// console.log(odd(arr));
+
+
+//-
+
+//Anonymous:
+//function without proper names
+// var result=[];
+
+// var a=function (arr){
+// for(var i=0;i<arr.length;i++){
+
+
+// if(arr[i]%2!==0){
+//     result.push(arr[i]);
+// }
+
+// }
+// return result;
+// }
+// console.log(a([15,18,19,20,21,22,23])); 
+
+
+//iife-immedietly invoked function expression
+// ({})()
+// (function (a,b){
+
+// console.log(a+b);
+// })(1,2)
+
+
+
+//
+// var result=[];
+// (function (arr){
+
+// for(var i=0;i<arr.length;i++){
+//     if(arr[i]%2!==0){
+//         result.push(arr[i])
+//     }
+// }
+// console.log(result)
+// })([1,2,3,4,5,6,7,89])
+
+
+
+//Arror function introduced in ES6
+
+//var variablename=()=>{}variablename()
+
+//-
+// var result=[];
+// var odd=(arr)=>{
+    
+//  for(var i=0;i<arr.length;i++){
+//  if(arr[i]%2!==0){
+//  result.push(arr[i]);
+//  }
+//  }
+//  return result;  
+// }
+// console.log(odd([1,2,3,4,5,6,7,8,9]));
+//-
+
+// function toTitleCase(str) {
+//   str = str.toLowerCase().split(' ');
+//   for (var i = 0; i < str.length; i++) {
+//     str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+//   }
+//   return str.join(' ');
+// }
+// console.log(toTitleCase("WELCOME TO MY CODING JOURNEY")); 
+
+// function tasktwo(str){
+
+    
+// }
+
+//-----day5
+
+// let obj1={name:"person 1",age:5};
+// let obj2={age:5,name:"person 1"};
+// //convert the object to JSON
+// let json1=JSON.stringify(obj1);
+// console.log(json1);
+// let json2=JSON.stringify(obj2);
+// console.log(json2);
+// if(json1===json2){
+//     console.log("these two are same properties");
+// }
+// else{
+//     console.log("not same");
+// }
+
+
+//-
+
+console.log(a);
+var a=10;
+//output:undefined
+
+console.log(a);
+let a=10;
+//output:error
+//var undefined output
+//let,const are same error
+// var vs let vs const
+//HOISTING:
+
+
+
+//Global,Block
+//var-global
+//let,const-global
