@@ -1,19 +1,28 @@
+//object destructing:
 
-//Array destructuring:
 
-const fruits=["varadhan"," varadhan1","varadhan2 "," varadhan3"]
+const obj={
 
-//without destructuring
+    names:"john",
+    age:30,
+    address:{
+        city:"chennai",
+        state:"Tamilnadu"
+    }
 
-// const apple=fruits[0];
-// const banana=fruits[1];
-// console.log(apple);
+}
 
+//without  destructuring:
+
+/*console.log(obj.names);
+console.log(obj.address.city);*/
 
 //with destructuring
 
-const [apple,bannana,mango,varadhan9,jack="varadhan5"]=fruits;
-console.log(apple);
-console.log(bannana);
-console.log(jack);
+//const {key}=objectname;
+
+const{names,age,address:{city}}=obj;
+console.log(names);
+console.log(age);
+console.log(city);
 
