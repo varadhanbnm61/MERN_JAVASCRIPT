@@ -306,3 +306,28 @@ let a=10;
 
 
 
+
+
+
+
+
+nov1:
+
+contents:
+MRF
+For Each
+
+MRF:-(Map Reduce Filter)
+
+=>HOF(HIgher order Functions)function inside a function
+
+1.map-it iterates/transforms
+over each an every element in an array
+and produces new array
+
+syantax:arrayname.map(we need to pass function)
+
+
+
+
+
